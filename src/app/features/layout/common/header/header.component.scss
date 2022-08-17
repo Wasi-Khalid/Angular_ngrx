@@ -1,0 +1,28 @@
+.wrapper {
+    color: #000;
+    border-bottom: 1px solid #e4e5e7;
+}
+.input-wrapper {
+    border-color: #c5c6c9;
+    border-radius: 4px;
+    color: #62646a;
+    font-size: 16px;
+}
+.row {
+    width: 100%;
+    align-items: center;
+}
+@media screen and (max-width: 670px) {
+    mat-toolbar-row{
+        display: block;
+        height: auto;
+    }
+    #logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #icons {
+        display: none !important;
+    }
+  }
